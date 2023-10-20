@@ -162,9 +162,9 @@ int main() {
     auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
 
     // Results aur processing time print kare.
-    cout << "Sabse Lamba Compound Word: " << longest << endl;
-    cout << "Dusra Sabse Lamba Compound Word: " << sec_longest << endl;
-    cout << "File ko process karne mei samay: " << elapsed_time.count() << " milliseconds" << endl;
+    cout << "Longest Compound Word: " << longest << endl;
+    cout << "Second Longest Compound Word: " << sec_longest << endl;
+    cout << "Time Taken to process the Code: " << elapsed_time.count() << " milliseconds" << endl;
 
     return 0;
 }
